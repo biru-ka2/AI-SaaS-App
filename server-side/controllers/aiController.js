@@ -169,7 +169,7 @@ export const generateImage = async (req, res) => {
 export const removeImageBackground  = async (req, res) => {
   try {
     const { userId } = req.auth();
-    const {image} = req.file;
+    const image = req.file;
     const plan = req.plan;
 
     if (plan !== "pro_ver") {
@@ -211,7 +211,7 @@ export const removeImageBackground  = async (req, res) => {
 export const removeImageObject  = async (req, res) => {
   try {
     const { userId } = req.auth();
-    const {image} = req.file;
+    const image = req.file;
     const plan = req.plan;
     const { object } = req.body
 
@@ -234,7 +234,7 @@ export const removeImageObject  = async (req, res) => {
 
     res.json({
       success: true,
-      content: secure_url,
+      content: imageUrl,
     });
 
 
@@ -273,7 +273,7 @@ export const resumeReview  = async (req, res) => {
     const dataBuffer = fs.readFileSync(resume.path)
     const pdfData = await pdf(dataBuffer)
 
-    const prompt = `Reveiw the following resume and provide contructive feedback on its strnegth, weaknees and areas for improvement. Resume Content:\n\n${pdfData.text} `
+    const prompt = `Reveiw the following resume and provide constructive feedback on its strnegth, weaknees and areas for improvement. Resume Content:\n\n${pdfData.text} `
 
 
     const response = await AI.chat.completions.create({
@@ -290,7 +290,7 @@ export const resumeReview  = async (req, res) => {
 
 
     await sql`INSERT INTO creations (user_id, prompt, content, type)
-   VALUES(${userId}, Review the uploaded resume, ${content}, 'resume-review')`;
+   VALUES(${userId}, ${"Review the uploaded resume"}, ${content}, 'resume-review')`;
 
     res.json({
       success: true,

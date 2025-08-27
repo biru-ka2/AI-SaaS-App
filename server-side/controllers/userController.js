@@ -30,7 +30,7 @@ export const getPublishedCreations = async (req, res)=>{
     try {
 
         const creations = await sql `
-        SELECT * FROM creations WHERE public = true ORDER
+        SELECT * FROM creations WHERE publish = true ORDER
         BY created_at DESC`;
 
         res.json({
