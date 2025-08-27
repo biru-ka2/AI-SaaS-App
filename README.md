@@ -35,13 +35,13 @@ The website features a clean and responsive frontend built with React and Tailwi
 **Backend**
 - Node.js  
 - Express.js  
-- PostgreSQL (with Prisma / SQL)  
+- PostgreSQL (with Neon)  
 
 **Other Tools**
 - Clerk (Authentication)  
 - Cloudinary (Media uploads)  
 - OpenAI API / AI integrations  
-- Vercel, Render, Railway (Deployment options)  
+- Vercel, Render (Deployment options)  
 
 ---
 
