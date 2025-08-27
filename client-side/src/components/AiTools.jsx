@@ -8,10 +8,10 @@ const AiTools = () => {
     const navigate = useNavigate()
     const {user} = useUser()
   return (
-    <div className='px-4 sm:px-20 xl:px32 my-24'>
+    <div className='px-4 sm:px-20 xl:px-32 my-24'>
         <div className='text-center'>
             <h2 className=' text-[42px] text-slate-700 font-semibold'>Powerfull AI Tools</h2>
-            <p className='text-gray-500 maz-w-lg mx-auto'>Everything you need to create, enhance and optimize  you content with cutting-edge AI technology.</p>
+            <p className='text-gray-500 max-w-lg mx-auto'>Everything you need to create, enhance and optimize  you content with cutting-edge AI technology.</p>
         </div>
 
         <div className='flex flex-wrap mt-10 justify-center'>
