@@ -2,13 +2,8 @@
 
 Build and deploy a modern **AI-powered SaaS application** from scratch using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)**.  
 
-⭐ Key highlights of the website:
-- A clean, responsive **frontend** built with React and Tailwind CSS  
-- Secure **user authentication & management** powered by Clerk  
-- AI features integrated via APIs (like OpenAI / ClipDrop)  
-- **Database-backed workflows** using PostgreSQL  
-- A fully functional **REST API** with Express and Node.js  
-- Cloud deployment for **production-ready hosting** 
+The website features a clean and responsive frontend built with React and Tailwind CSS, secure authentication powered by Clerk, and AI tools integrated through APIs like OpenAI and ClipDrop. It uses PostgreSQL for database-backed workflows, a robust REST API with Express and Node.js, and is fully deployed on the cloud for a production-ready experience.  
+
 
 
 ---
@@ -147,7 +142,8 @@ Push your code to GitHub and connect your repo to these platforms for one-click 
 
 ---
 
-**This project is licensed under the MIT License.**
+## 📬 Contact
 
-This README is styled like a real GitHub-ready doc: structured, polished, with instructions, tech stack, and deployment steps.  
+For feedback or inquiries, please reach out at harshkurware03@gmail.com. <br>
+*This project is licensed under the MIT License.*
 
