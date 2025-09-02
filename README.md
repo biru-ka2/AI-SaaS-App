@@ -10,7 +10,6 @@ The website features a clean and responsive frontend built with React and Tailwi
 
 ## ✨ Features
 
-- 🔑 **Authentication & Authorization** with [Clerk](https://clerk.com)  
 - 🖼 **AI-Powered Features** — integrate image generation, text prompts, etc.  
 - 📦 **Full PERN Stack** setup:  
   - **PostgreSQL** – relational database  
@@ -74,7 +73,7 @@ The website features a clean and responsive frontend built with React and Tailwi
 
 1️⃣ Clone the repo
 ```
-git clone https://github.com/your-username/ai-saas-pern.git
+git clone https://github.com/biru-ka2/AI-SaaS-App.git
 cd ai-saas-pern
 
 ```
