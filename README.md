@@ -118,17 +118,6 @@ Now visit http://localhost:5173 🎉
 
 ---
 
-## 🚀 Deployment
-
-- Frontend → Vercel
-
-- Backend → Render/ Railway
-
-- Database → Supabase/ Neon/ Railway
-
-Push your code to GitHub and connect your repo to these platforms for one-click deployment.
-
----
 
 ## 🧠 Learning Goals
 
